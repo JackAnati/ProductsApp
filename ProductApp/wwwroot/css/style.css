@@ -1,0 +1,157 @@
+﻿
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    color: #F63040;
+}
+
+main {
+    width: 70vw;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+a {
+    padding: 10px;
+    margin: 0px;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+
+form {
+    margin-top: 20px;
+    background-color: #57565B;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0,0.35) 0px 5px 15px;
+    padding: 20px;
+}
+
+
+label {
+    display: block;
+    font-size: 20px;
+    color: #F63040;
+}
+
+fieldset {
+    border: none;
+    margin: 10px 5px;
+}
+
+input, textarea, button {
+    margin: 10px 0 0 0;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 5px;
+    border: none;
+}
+
+textarea {
+    height: 100px;
+}
+
+button[type="submit"] {
+    background-color: #F63040;
+    color: #57565B;
+    font-size: 20px;
+    border: none;
+    padding: 10px 5px;
+    width: 100%;
+}
+
+.btn-create {
+    margin: 0px;
+    background-color: #0d6efd;
+    color: #57565B;
+}
+
+.btn-delete {
+    margin: 10px;
+    background-color: #F63040;
+    color: #57565B;
+}
+.btn-back {
+    margin: 0px;
+    background-color: #F63040;
+    color: #57565B;
+}
+.btn-update {
+    margin: 10px;
+    background-color: #ffcc00;
+    color: #57565B;
+}
+
+table {
+    margin-top: 20px;
+    width: 70vw;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #F63040;
+    color: #57565B;
+}
+
+    thead th {
+        padding: 15px;
+        text-align: left;
+        border: none;
+    }
+
+tbody td {
+    padding: 12px 15px;
+    border-top: 1px solid #57565B;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background: #fff;
+    width: 400px;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.modal-actions {
+    margin-top: 20px;
+}
+
+    .modal-actions button,
+    .modal-actions a {
+        padding: 8px 15px;
+        margin: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    .modal-actions button {
+        background-color: #ccc;
+        border: none;
+    }
+
+    .modal-actions a {
+        background-color: #F63040;
+        color: white;
+    }
