@@ -3,7 +3,7 @@
 In order to fullfil the app specifications I created the app using ASP .NET MVC.
 I created a Model class with all the field that are going to be needed in the database table.
 
-Then I created a Data for my database context so when I run migrations the Model will register into my database as a table along with its' fields. I created a connection string in the Json file and as well registered the connection string as DefaultConnection in my Program.cs file.
+Then I created a Data folder for my database context so when I run migrations the Model will register into my database as a table along with its' fields. I created a connection string in the Json file and as well registered the connection string as DefaultConnection in my Program.cs file.
 I created a Controller that connects with my Model class in order to do my CRUD functionality.
 
 My Views are connected to my Controller functions based on what each function does.
